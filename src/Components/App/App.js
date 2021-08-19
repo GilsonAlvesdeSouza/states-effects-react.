@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Container } from './styles';
+import { IfoodCounter } from '../Ifoodcounter/index';
 
 function App() {
   return (
-    <h1>Hello word</h1>
+    <Container>
+      <h1>Contador</h1>
+      <IfoodCounter></IfoodCounter>
+    </Container>
   );
 }
 
