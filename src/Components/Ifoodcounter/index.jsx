@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ButtonMinusActive, ButtonPlusActive, Value, Wrapper } from './styled';
+import { ButtonMinusActive, ButtonPlusActive, Value, Wrapper } from './styles';
 
 export const IfoodCounter = () => {
     const [value, setValue] = useState(0);

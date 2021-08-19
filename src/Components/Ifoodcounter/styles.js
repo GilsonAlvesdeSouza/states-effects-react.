@@ -31,16 +31,6 @@ export const ButtonMinusActive = styled.button`
     font-size: 1.5em;
 `;
 
-export const ButtonMinusDesactive = styled.button`
-    border: none;
-    background-color: transparent;
-    height: 100%;
-    font-size: large;
-    color: rgb(105,105,105);
-    cursor: pointer;
-    font-size: 1.5em;
-`;
-
 export const Value = styled.p`
     color: ${props => props.color};
 `;
