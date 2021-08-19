@@ -6,7 +6,7 @@ import { IfoodCounter } from '../Ifoodcounter/index';
 function App() {
   return (
     <Container>
-      <h1>Contador</h1>
+      <h1>Food</h1>
       <IfoodCounter></IfoodCounter>
     </Container>
   );

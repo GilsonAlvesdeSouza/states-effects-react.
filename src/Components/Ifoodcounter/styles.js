@@ -35,3 +35,5 @@ export const Value = styled.p`
     color: ${props => props.color};
 `;
 
+
+
